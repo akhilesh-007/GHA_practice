@@ -6,6 +6,7 @@
        - main
  env:
   ACCESS_TOKEN: hgdfhgdfhgbdshbvf
+  HELLO: Hello World
  jobs:
    build:
      runs-on: ubuntu-latest
