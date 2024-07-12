@@ -5,7 +5,7 @@
      branches:
        - main
  env:
-  ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ACCESS_TOKEN: hgdfhgdfhgbdshbvf
  jobs:
    build:
      runs-on: ubuntu-latest
@@ -16,5 +16,4 @@
 
        - name: Say Hello to the World
          run: echo $HELLO
-          run: |
-      echo $ACCESS_TOKEN
+          run: echo $ACCESS_TOKEN
