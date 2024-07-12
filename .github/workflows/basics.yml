@@ -5,7 +5,7 @@
      branches:
        - main
  env:
-  ACCESS_TOKEN: hgdfhgdfhgbdshbvf
+  ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   HELLO: Hello World
  jobs:
    build:
