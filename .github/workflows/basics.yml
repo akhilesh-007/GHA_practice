@@ -5,7 +5,7 @@
      branches:
        - main
  env:
-   $HELLO: Hello, World!
+   HELLO: Hello, World!
  jobs:
    build:
      runs-on: ubuntu-latest
