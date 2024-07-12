@@ -4,8 +4,7 @@
    workflow_dispatch:
      branches:
        - main
- env:
-   HELLO: Hello, World!
+ 
  jobs:
    build:
      runs-on: ubuntu-latest
