@@ -4,7 +4,8 @@
    push:
      branches:
        - main
-
+ env:
+   $HELLO: Hello, World!
  jobs:
    build:
      runs-on: ubuntu-latest
