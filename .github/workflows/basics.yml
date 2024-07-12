@@ -4,7 +4,8 @@
    workflow_dispatch:
      branches:
        - main
- 
+ env:
+  ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  jobs:
    build:
      runs-on: ubuntu-latest
@@ -15,3 +16,5 @@
 
        - name: Say Hello to the World
          run: echo $HELLO
+          run: |
+      echo $ACCESS_TOKEN
